@@ -14,6 +14,22 @@ body {
     background-repeat: no-repeat;
 }
 
+.product-page {
+    background-image: url(c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-page {
+    background-image: url(c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
 header {
     background-color: #112240;
     padding: 20px;
@@ -363,3 +379,132 @@ ul {
     color: #f9fcfb;
 }
 
+.introduction {
+    padding: 40px;
+    background-color: #112240;
+    text-align: center;
+}
+
+.introduction h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.introduction p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+  
+  .introduction .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .introduction p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  body {
+    background: url('c.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  header, footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #122647;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .product-card {
+    background-color: #1a2b4c;
+    border-radius: 16px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  .product-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    color: #00ffcc;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .option-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  
+  .option-group button {
+    padding: 8px 16px;
+    background-color: #23395d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .option-group button.active,
+  .option-group button:hover {
+    background-color: #00ffcc;
+    color: black;
+  }
+  
+  .add-to-cart button {
+    margin-top: 15px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+    transition: background 0.3s;
+  }
+  
+  .add-to-cart button:hover {
+    background-color: #00ddb0;
+  }
+  
